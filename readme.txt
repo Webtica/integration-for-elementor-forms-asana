@@ -2,9 +2,9 @@
 Contributors: webtica
 Tags: asana, elementor, elementor pro, forms, integration, marketing, lists, tasks, flexible, projects, segments, automation
 Requires at least: 5.0
-Tested up to: 5.8.2
+Tested up to: 5.9.2
 Requires PHP: 5.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -50,6 +50,11 @@ Because this integration works with the Form Widget, which is a Elementor Pro un
 Yes, all the other form widget integrations will be available.
 
 == Changelog ==
+
+= 1.0.1 - 2022-03-13 =
+* Tested Elementor PRO up to 3.6.3
+* Tested Elementor up to 3.5.6
+* Tested WordPress up to 5.9.2
 
 = 1.0.0 - 2022-01-23 =
 * Initial Release

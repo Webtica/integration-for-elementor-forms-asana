@@ -7,4 +7,4 @@ function webtica_asana_integration_filter_action_links( $links ) {
 	return $links;
 
 }
-add_filter( 'plugin_action_links_integration-for-elementor-forms-flexmail/flexmail-elementor-integration.php', 'webtica_asana_integration_filter_action_links', 10, 3 );
+add_filter( 'plugin_action_links_integration-for-elementor-forms-asana/asana-elementor-integration.php', 'webtica_asana_integration_filter_action_links', 10, 3 );
