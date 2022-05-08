@@ -43,6 +43,12 @@ Yes, all the other form widget integrations will be available.
 
 ## Changelog
 
+### 1.0.2 - 08-05-2022
+* Fix bug when not setting the notes field ID
+* Tested Elementor PRO up to 3.6.5
+* Tested Elementor up to 3.6.5
+* Tested WordPress up to 6.0.0
+
 ### 1.0.1 - 13-03-2022
 * Tested Elementor PRO up to 3.6.3
 * Tested Elementor up to 3.5.6

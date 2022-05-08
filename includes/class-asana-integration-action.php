@@ -121,7 +121,7 @@ class Asana_Integration_Action_After_Submit extends \ElementorPro\Modules\Forms\
 		$widget->add_control(
 			'asana_task_description_field',
 			[
-				'label' => __( 'Task description field ID (Optional)', 'asana-elementor-integration' ),
+				'label' => __( 'Task description field ID', 'asana-elementor-integration' ),
 				'type' => \Elementor\Controls_Manager::TEXT,
 				'placeholder' => 'taskdescription',
 				'description' => __( 'Enter the elementor form task description field id - you can find this under the elementor form field advanced tab for example "message".', 'asana-elementor-integration' ),
@@ -209,6 +209,10 @@ class Asana_Integration_Action_After_Submit extends \ElementorPro\Modules\Forms\
 		if ( empty( $settings['asana_task_name_field'] ) ) {
 			return;
 		}
+		//  Make sure that there is a task note set
+		if ( empty( $settings['asana_task_description_field'] ) ) {
+			return;
+		}
 
 		// Get submitted Form data
 		$raw_fields = $record->get( 'fields' );
@@ -259,6 +263,5 @@ class Asana_Integration_Action_After_Submit extends \ElementorPro\Modules\Forms\
 		    'body'        => json_encode($datatosend)
 			)
 		);	
-
 	}
 }

@@ -2,9 +2,9 @@
 Contributors: webtica
 Tags: asana, elementor, elementor pro, forms, integration, marketing, lists, tasks, flexible, projects, segments, automation
 Requires at least: 5.0
-Tested up to: 5.9.2
+Tested up to: 6.0.0
 Requires PHP: 5.4
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -50,6 +50,12 @@ Because this integration works with the Form Widget, which is a Elementor Pro un
 Yes, all the other form widget integrations will be available.
 
 == Changelog ==
+
+= 1.0.2 - 2022-05-08 =
+* Fix bug when not setting the notes field ID
+* Tested Elementor PRO up to 3.6.5
+* Tested Elementor up to 3.6.5
+* Tested WordPress up to 6.0.0
 
 = 1.0.1 - 2022-03-13 =
 * Tested Elementor PRO up to 3.6.3
