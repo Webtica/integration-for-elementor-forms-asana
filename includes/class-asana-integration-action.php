@@ -137,7 +137,7 @@ class Asana_Integration_Action_After_Submit extends \ElementorPro\Modules\Forms\
 				'label' => __( 'Due date', 'asana-elementor-integration' ),
 				'type' => \Elementor\Controls_Manager::NUMBER,
 				'placeholder' => '30',
-				'description' => __( 'Enter the amount of days for the task due date. - for example when set to 30. Due date will be set today + 30 days. When set to 0 or empty it will be set to today', 'asana-elementor-integration' ),
+				'description' => __( 'Enter the amount of days for the task due date. - for example when set to 30. Due date will be set today +30 days. When empty it will set +30 days. When set to 0 it will be set to today', 'asana-elementor-integration' ),
 				'dynamic' => [
 					'active' => true,
 				],
@@ -209,10 +209,6 @@ class Asana_Integration_Action_After_Submit extends \ElementorPro\Modules\Forms\
 		if ( empty( $settings['asana_task_name_field'] ) ) {
 			return;
 		}
-		//  Make sure that there is a task note set
-		if ( empty( $settings['asana_task_description_field'] ) ) {
-			return;
-		}
 
 		// Get submitted Form data
 		$raw_fields = $record->get( 'fields' );
@@ -224,15 +220,15 @@ class Asana_Integration_Action_After_Submit extends \ElementorPro\Modules\Forms\
 		}
 
 		//Generate due date 
-		if (empty($settings['asana_due_date'])){
-			$duedate = date("Y-m-d");
+		if (!empty($settings['asana_due_date'])){
+			$days = $settings['asana_due_date'];
+			$duedate = date("Y-m-d", strtotime("+$days days"));
 		}
 		if ($settings['asana_due_date'] == "0"){
 			$duedate = date("Y-m-d");
 		}
 		else {
-			$days = $settings['asana_due_date'];
-			$duedate = date('Y-m-d', strtotime("+$days days"));
+			$duedate = date("Y-m-d", strtotime("+30 days"));
 		}
 
 		//Generate array to send

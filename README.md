@@ -43,6 +43,13 @@ Yes, all the other form widget integrations will be available.
 
 ## Changelog
 
+### 1.0.3 - 15-07-2022
+* Fix when due date is empty set it to 30 days from today
+* Made the description/notes field optional
+* Tested Elementor PRO up to 3.7.2
+* Tested Elementor up to 3.6.7
+* Tested WordPress up to 6.0.1
+
 ### 1.0.2 - 08-05-2022
 * Fix bug when not setting the notes field ID
 * Tested Elementor PRO up to 3.6.5
