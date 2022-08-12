@@ -4,7 +4,7 @@ Tags: asana, elementor, elementor pro, forms, integration, marketing, lists, tas
 Requires at least: 5.0
 Tested up to: 6.0.1
 Requires PHP: 5.4
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -50,6 +50,11 @@ Because this integration works with the Form Widget, which is a Elementor Pro un
 Yes, all the other form widget integrations will be available.
 
 == Changelog ==
+
+= 1.0.4 - 2022-08-12 = 
+* New - Allow the assignee to be empty.
+* COMP - Tested Elementor up to 3.7.0
+* COMP - Tested Elementor PRO up to 3.7.3
 
 = 1.0.3 - 2022-07-15 =
 * Fix when due date is empty set it to 30 days from today

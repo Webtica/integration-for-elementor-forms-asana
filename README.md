@@ -43,6 +43,11 @@ Yes, all the other form widget integrations will be available.
 
 ## Changelog
 
+### 1.0.4 - 12-08-2022
+* New - Allow the assignee to be empty.
+* COMP - Tested Elementor up to 3.7.0
+* COMP - Tested Elementor PRO up to 3.7.3
+
 ### 1.0.3 - 15-07-2022
 * Fix when due date is empty set it to 30 days from today
 * Made the description/notes field optional

@@ -5,9 +5,9 @@
  * Description: Easily connect and send data to Asana from elementor forms.
  * Author: Webtica
  * Author URI: https://webtica.be/
- * Version: 1.0.3
- * Elementor tested up to: 3.6.7
- * Elementor Pro tested up to: 3.7.2
+ * Version: 1.0.4
+ * Elementor tested up to: 3.7.0
+ * Elementor Pro tested up to: 3.7.3
  */
 
 // Exit if accessed directly

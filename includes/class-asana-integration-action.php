@@ -201,10 +201,6 @@ class Asana_Integration_Action_After_Submit extends \ElementorPro\Modules\Forms\
 		if ( empty( $settings['asana_project_id'] ) ) {
 			return;
 		}
-		//  Make sure that there is an assignee set
-		if ( empty( $settings['asana_assignee_id'] ) ) {
-			return;
-		}
 		//  Make sure that there is a task name set
 		if ( empty( $settings['asana_task_name_field'] ) ) {
 			return;
