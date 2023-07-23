@@ -43,6 +43,11 @@ Yes, all the other form widget integrations will be available.
 
 ## Changelog
 
+### 1.0.5 - 23-07-2023
+* COMP - Tested WordPress up to 6.3
+* COMP - Tested Elementor up to 3.14.1
+* COMP - Tested Elementor PRO up to 3.14.1
+
 ### 1.0.4 - 12-08-2022
 * New - Allow the assignee to be empty.
 * COMP - Tested Elementor up to 3.7.0
