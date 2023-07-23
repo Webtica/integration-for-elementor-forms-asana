@@ -4,7 +4,7 @@ Tags: asana, elementor, elementor pro, forms, integration, marketing, lists, tas
 Requires at least: 5.0
 Tested up to: 6.3
 Requires PHP: 7.0
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -51,11 +51,16 @@ Yes, all the other form widget integrations will be available.
 
 == Changelog ==
 
-= 1.0.5 - 2023-07-23 = 
+= 1.0.6 - 2023-07-23 = 
 * COMP - Change required PHP version to 7
 * COMP - Tested WordPress up to 6.3
 * COMP - Tested Elementor up to 3.14.1
 * COMP - Tested Elementor PRO up to 3.14.1
+
+= 1.0.5 - 2022-11-05 = 
+* Tested Elementor PRO up to 3.8.0
+* Tested Elementor up to 3.8.0
+* Tested WordPress up to 6.1
 
 = 1.0.4 - 2022-08-12 = 
 * New - Allow the assignee to be empty.
